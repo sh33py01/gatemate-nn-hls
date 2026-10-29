@@ -1,0 +1,7 @@
+# Shell scripts must keep LF line endings even if the repo is cloned on Windows
+* text=auto
+*.sh  text eol=lf
+*.py  text eol=lf
+*.v   text eol=lf
+*.ccf text eol=lf
+*.ps1 text eol=crlf

@@ -1,0 +1,5 @@
+# GateMate CCGM1A1 eval board V3.2A
+Pin_in  "clk" Loc = "IO_SB_A8" | SCHMITT_TRIGGER=true;   # 10 MHz oscillator
+Pin_out "tx"  Loc = "IO_NB_A1";                           # J17A pin 2, grey  = adapter RX
+Pin_in  "rx"  Loc = "IO_NB_A2" | SCHMITT_TRIGGER=true;   # J17A pin 3, orange = adapter TX
+Pin_out "led" Loc = "IO_EB_B1";                           # D1, active low

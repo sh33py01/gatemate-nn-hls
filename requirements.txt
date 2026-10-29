@@ -1,0 +1,8 @@
+# Python packages for the WSL side (board tests, training, hls4ml).
+# torch is installed separately from the CPU index by setup/wsl_setup.sh.
+# The TOSA export (export_tosa.py) runs inside the SODA devcontainer, not here.
+numpy
+pyserial
+scikit-learn
+pandas
+hls4ml==1.3.0
