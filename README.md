@@ -110,7 +110,7 @@ On a PC without WSL the script stops after enabling it: reboot and run it again.
 
 ```bash
 git clone https://github.com/pnnl/soda-benchmarks.git ~/soda-benchmarks
-git clone https://github.com/<user>/gatemate-nn-hls.git ~/soda-benchmarks/tutorials/pytorch/hw
+git clone https://github.com/sh33py01/gatemate-nn-hls.git ~/soda-benchmarks/tutorials/pytorch/hw
 bash ~/soda-benchmarks/tutorials/pytorch/hw/setup/wsl_setup.sh
 bash ~/soda-benchmarks/tutorials/pytorch/hw/setup/check_env.sh
 ```
